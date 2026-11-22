@@ -1,0 +1,134 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.8133333333333334,
+    "f1_macro": 0.7928447139575147,
+    "f1_micro": 0.8133333333333334,
+    "f1_weighted": 0.8055699679643308,
+    "precision_macro": 0.8149527627143113,
+    "precision_weighted": 0.8207634079338619,
+    "recall_macro": 0.7968281136377037,
+    "recall_weighted": 0.8133333333333334,
+    "ece": 0.08819179171323777
+  },
+  "per_class_metrics": {
+    "Irrelevant": {
+      "precision": 0.787012987012987,
+      "recall": 0.505,
+      "f1-score": 0.6152284263959391,
+      "support": 600.0
+    },
+    "Environment": {
+      "precision": 0.8960739030023095,
+      "recall": 0.9463414634146341,
+      "f1-score": 0.9205219454329775,
+      "support": 820.0
+    },
+    "Social": {
+      "precision": 0.8691099476439791,
+      "recall": 0.7811764705882352,
+      "f1-score": 0.8228004956629492,
+      "support": 850.0
+    },
+    "Governance": {
+      "precision": 0.7076142131979696,
+      "recall": 0.9547945205479452,
+      "f1-score": 0.8128279883381925,
+      "support": 730.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      303,
+      68,
+      75,
+      154
+    ],
+    [
+      18,
+      776,
+      12,
+      14
+    ],
+    [
+      50,
+      16,
+      664,
+      120
+    ],
+    [
+      14,
+      6,
+      13,
+      697
+    ]
+  ],
+  "calibration_bins": [
+    {
+      "bin_low": 0.2,
+      "bin_high": 0.30000000000000004,
+      "count": 1,
+      "accuracy": 0.0,
+      "avg_confidence": 0.27333196997642517
+    },
+    {
+      "bin_low": 0.30000000000000004,
+      "bin_high": 0.4,
+      "count": 13,
+      "accuracy": 0.3076923191547394,
+      "avg_confidence": 0.3707076907157898
+    },
+    {
+      "bin_low": 0.4,
+      "bin_high": 0.5,
+      "count": 70,
+      "accuracy": 0.4285714328289032,
+      "avg_confidence": 0.46418997645378113
+    },
+    {
+      "bin_low": 0.5,
+      "bin_high": 0.6000000000000001,
+      "count": 137,
+      "accuracy": 0.38686132431030273,
+      "avg_confidence": 0.5503994822502136
+    },
+    {
+      "bin_low": 0.6000000000000001,
+      "bin_high": 0.7000000000000001,
+      "count": 150,
+      "accuracy": 0.5199999809265137,
+      "avg_confidence": 0.6519288420677185
+    },
+    {
+      "bin_low": 0.7000000000000001,
+      "bin_high": 0.8,
+      "count": 191,
+      "accuracy": 0.5654450058937073,
+      "avg_confidence": 0.752651035785675
+    },
+    {
+      "bin_low": 0.8,
+      "bin_high": 0.9,
+      "count": 280,
+      "accuracy": 0.6928571462631226,
+      "avg_confidence": 0.8559888601303101
+    },
+    {
+      "bin_low": 0.9,
+      "bin_high": 1.0,
+      "count": 2158,
+      "accuracy": 0.9142724871635437,
+      "avg_confidence": 0.9779250621795654
+    }
+  ],
+  "num_samples": 3000,
+  "run_tag": "run1",
+  "model_short_name": "roberta-base",
+  "model_display_name": "RoBERTa-base",
+  "hf_name": "FacebookAI/roberta-base",
+  "use_word_segmenter": false,
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run1\\roberta-base",
+  "eval_seconds": 2.942,
+  "ms_per_sample": 0.981,
+  "samples_per_second": 1019.86,
+  "num_parameters": 124648708
+}

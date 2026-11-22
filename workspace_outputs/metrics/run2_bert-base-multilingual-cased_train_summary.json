@@ -1,0 +1,41 @@
+{
+  "run_tag": "run2",
+  "model_short_name": "bert-base-multilingual-cased",
+  "model_display_name": "mBERT-cased",
+  "hf_name": "google-bert/bert-base-multilingual-cased",
+  "use_word_segmenter": false,
+  "data_source": "combined_round1.csv (Original + Pseudo R1)",
+  "train_size": 34404,
+  "val_size": 2737,
+  "hardware_mode": "balanced",
+  "bf16": true,
+  "fp16": false,
+  "num_epochs_configured": 8,
+  "best_epoch": 8,
+  "train_seconds": 1470.49,
+  "peak_vram_gb": 4.47,
+  "train_metrics": {
+    "train_runtime": 1468.3135,
+    "train_samples_per_second": 187.448,
+    "train_steps_per_second": 5.863,
+    "train_loss": 0.27680580190566395,
+    "epoch": 8.0
+  },
+  "best_val_metrics": {
+    "eval_loss": 0.7176505923271179,
+    "eval_accuracy": 0.9028132992327366,
+    "eval_f1_macro": 0.9006632496700995,
+    "eval_f1_micro": 0.9028132992327366,
+    "eval_f1_weighted": 0.902067852842708,
+    "eval_precision_macro": 0.9009348687838279,
+    "eval_precision_weighted": 0.9024922727517501,
+    "eval_recall_macro": 0.9018242909359774,
+    "eval_recall_weighted": 0.9028132992327366,
+    "eval_runtime": 1.427,
+    "eval_samples_per_second": 1918.028,
+    "eval_steps_per_second": 60.267,
+    "epoch": 8.0
+  },
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run2\\bert-base-multilingual-cased",
+  "history_csv": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\metrics\\run2_bert-base-multilingual-cased_history.csv"
+}

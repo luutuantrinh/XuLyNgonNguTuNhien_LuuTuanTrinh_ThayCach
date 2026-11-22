@@ -1,0 +1,12 @@
+﻿run_tag,model_short_name,model_display_name,best_epoch,val_f1_macro_pct,accuracy_pct,f1_macro_pct,f1_weighted_pct,f1_irrelevant_pct,f1_environment_pct,f1_social_pct,f1_governance_pct,ece,ms_per_sample,samples_per_second,num_parameters,peak_vram_gb,train_minutes
+run3,phobert-base,PhoBERT-base,5.0,91.1,88.97,88.13,88.85,78.41,97.88,88.16,88.08,0.1018,0.493,2028.02,135001348,3.86,10.51
+run3,distilbert-base-multilingual-cased,DistilBERT-m,4.0,89.37,89.7,89.03,89.65,79.87,97.77,88.21,90.26,0.0825,0.324,3085.29,135327748,2.96,6.3
+run3,bert-base-multilingual-cased,mBERT-cased,6.0,89.82,89.43,88.48,89.19,78.92,96.89,89.54,88.58,0.0988,0.55,1817.87,177856516,4.47,14.48
+run3,roberta-base,RoBERTa-base,6.0,85.26,88.13,86.95,87.8,75.61,95.86,89.28,87.04,0.0898,0.977,1023.55,124648708,3.7,22.12
+run3,electra-base-vn,Vi-ELECTRA,4.0,90.55,88.23,87.31,88.05,77.41,97.47,87.43,86.92,0.1055,0.495,2018.79,133660420,3.83,9.82
+run3,visobert,ViSoBERT,8.0,87.64,88.3,87.49,88.18,78.69,97.09,87.98,86.22,0.1117,0.601,1662.55,97569028,3.3,19.82
+run3,videberta-base,ViDeBERTa-base,6.0,83.55,86.17,85.14,85.92,74.38,95.16,85.47,85.56,0.0864,0.834,1199.22,184348420,3.36,32.16
+final_ensemble,ensemble_—_weighted_soft_(7m),Ensemble — Weighted Soft (7M),,,90.73,90.04,90.63,82.36,98.12,90.39,89.29,0.0256,4.274,233.97,988412188,,
+final_ensemble,ensemble_—_equal_soft_(7m),Ensemble — Equal Soft (7M),,,90.77,90.09,90.67,82.54,98.18,90.39,89.24,0.0226,4.274,233.97,988412188,,
+final_ensemble,ensemble_—_hard_voting_(7m),Ensemble — Hard Voting (7M),,,90.63,89.95,90.53,82.36,98.12,90.2,89.11,0.029,4.274,233.97,988412188,,
+final_ensemble,ensemble_—_top-3_weighted_(phobert+vi+mbert),Ensemble — Top-3 Weighted (PhoBERT+Vi+mBERT),,,89.9,89.08,89.75,80.14,98.01,89.52,88.64,0.0589,1.538,650.2,446518284,,

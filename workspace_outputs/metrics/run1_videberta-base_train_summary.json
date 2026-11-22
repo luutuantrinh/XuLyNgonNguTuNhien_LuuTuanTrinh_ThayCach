@@ -1,0 +1,41 @@
+{
+  "run_tag": "run1",
+  "model_short_name": "videberta-base",
+  "model_display_name": "ViDeBERTa-base",
+  "hf_name": "Fsoft-AIC/videberta-base",
+  "use_word_segmenter": false,
+  "data_source": "train_subset7.csv",
+  "train_size": 10000,
+  "val_size": 2737,
+  "hardware_mode": "balanced",
+  "bf16": false,
+  "fp16": false,
+  "num_epochs_configured": 8,
+  "best_epoch": 1,
+  "train_seconds": 98.68,
+  "peak_vram_gb": 4.92,
+  "train_metrics": {
+    "train_runtime": 96.2794,
+    "train_samples_per_second": 311.593,
+    "train_steps_per_second": 9.753,
+    "train_loss": 2.708914759821785,
+    "epoch": 3.0
+  },
+  "best_val_metrics": {
+    "eval_loss": 1.3429577350616455,
+    "eval_accuracy": 0.36645962732919257,
+    "eval_f1_macro": 0.1340909090909091,
+    "eval_f1_micro": 0.36645962732919257,
+    "eval_f1_weighted": 0.19655561829474874,
+    "eval_precision_macro": 0.09161490683229814,
+    "eval_precision_weighted": 0.1342926584622507,
+    "eval_recall_macro": 0.25,
+    "eval_recall_weighted": 0.36645962732919257,
+    "eval_runtime": 1.9401,
+    "eval_samples_per_second": 1410.755,
+    "eval_steps_per_second": 44.328,
+    "epoch": 3.0
+  },
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run1\\videberta-base",
+  "history_csv": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\metrics\\run1_videberta-base_history.csv"
+}

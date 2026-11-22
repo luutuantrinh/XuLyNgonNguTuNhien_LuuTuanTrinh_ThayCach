@@ -1,0 +1,8 @@
+﻿run_tag,model_short_name,model_display_name,best_epoch,val_f1_macro_pct,accuracy_pct,f1_macro_pct,f1_weighted_pct,f1_irrelevant_pct,f1_environment_pct,f1_social_pct,f1_governance_pct,ece,peak_vram_gb,train_minutes
+run2,bert-base-multilingual-cased,mBERT-cased,8,90.07,88.0,86.92,87.72,76.35,96.94,87.97,86.42,0.1123,4.47,24.51
+run2,electra-base-vn,Vi-ELECTRA,3,90.93,87.77,86.79,87.59,76.29,97.65,87.12,86.12,0.0911,3.82,6.83
+run2,phobert-base,PhoBERT-base,3,89.78,87.27,85.89,86.96,71.89,97.4,88.93,85.33,0.0881,3.84,6.54
+run2,distilbert-base-multilingual-cased,DistilBERT-m,5,88.86,87.1,85.8,86.71,73.47,96.27,87.37,86.1,0.1029,2.96,6.28
+run2,visobert,ViSoBERT,7,87.22,85.77,84.98,85.55,76.7,94.74,82.85,85.64,0.1295,3.3,13.17
+run2,roberta-base,RoBERTa-base,8,84.88,86.0,84.49,85.49,71.26,94.46,87.76,84.49,0.1015,3.7,18.95
+run2,videberta-base,ViDeBERTa-base,7,84.03,84.9,83.75,84.55,72.62,93.56,84.34,84.46,0.0853,3.17,87.45

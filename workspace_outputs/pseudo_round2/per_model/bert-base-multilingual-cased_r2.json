@@ -1,0 +1,26 @@
+{
+  "round_tag": "r2",
+  "model_short_name": "bert-base-multilingual-cased",
+  "model_display_name": "mBERT-cased",
+  "total_unlabeled": 31109,
+  "inference_seconds": 14.6,
+  "samples_per_second": 2130.1,
+  "mean_confidence": 0.9817,
+  "median_confidence": 0.9999,
+  "mean_entropy": 0.0465,
+  "threshold_ref": 0.91,
+  "count_above_threshold": 29267,
+  "pct_above_threshold": 94.08,
+  "pred_distribution_all": {
+    "Governance": 9436,
+    "Social": 9020,
+    "Irrelevant": 7356,
+    "Environment": 5297
+  },
+  "pred_distribution_above_threshold": {
+    "Governance": 8908,
+    "Social": 8453,
+    "Irrelevant": 6880,
+    "Environment": 5026
+  }
+}

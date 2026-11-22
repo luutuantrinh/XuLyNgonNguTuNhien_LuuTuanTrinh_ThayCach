@@ -1,0 +1,127 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.829,
+    "f1_macro": 0.8036637716205766,
+    "f1_micro": 0.829,
+    "f1_weighted": 0.8179332353629907,
+    "precision_macro": 0.8360027194849066,
+    "precision_weighted": 0.8371559028738134,
+    "recall_macro": 0.8076182497723445,
+    "recall_weighted": 0.829,
+    "ece": 0.12425311820705731
+  },
+  "per_class_metrics": {
+    "Irrelevant": {
+      "precision": 0.8615384615384616,
+      "recall": 0.4666666666666667,
+      "f1-score": 0.6054054054054054,
+      "support": 600.0
+    },
+    "Environment": {
+      "precision": 0.9052023121387284,
+      "recall": 0.9548780487804878,
+      "f1-score": 0.9293768545994066,
+      "support": 820.0
+    },
+    "Social": {
+      "precision": 0.8405963302752294,
+      "recall": 0.8623529411764705,
+      "f1-score": 0.851335656213705,
+      "support": 850.0
+    },
+    "Governance": {
+      "precision": 0.7366737739872068,
+      "recall": 0.9465753424657535,
+      "f1-score": 0.8285371702637889,
+      "support": 730.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      280,
+      57,
+      103,
+      160
+    ],
+    [
+      11,
+      783,
+      13,
+      13
+    ],
+    [
+      25,
+      18,
+      733,
+      74
+    ],
+    [
+      9,
+      7,
+      23,
+      691
+    ]
+  ],
+  "calibration_bins": [
+    {
+      "bin_low": 0.30000000000000004,
+      "bin_high": 0.4,
+      "count": 2,
+      "accuracy": 0.0,
+      "avg_confidence": 0.3337821364402771
+    },
+    {
+      "bin_low": 0.4,
+      "bin_high": 0.5,
+      "count": 17,
+      "accuracy": 0.29411765933036804,
+      "avg_confidence": 0.4687144458293915
+    },
+    {
+      "bin_low": 0.5,
+      "bin_high": 0.6000000000000001,
+      "count": 79,
+      "accuracy": 0.4177215099334717,
+      "avg_confidence": 0.5567832589149475
+    },
+    {
+      "bin_low": 0.6000000000000001,
+      "bin_high": 0.7000000000000001,
+      "count": 73,
+      "accuracy": 0.39726027846336365,
+      "avg_confidence": 0.647739589214325
+    },
+    {
+      "bin_low": 0.7000000000000001,
+      "bin_high": 0.8,
+      "count": 96,
+      "accuracy": 0.4270833432674408,
+      "avg_confidence": 0.752414882183075
+    },
+    {
+      "bin_low": 0.8,
+      "bin_high": 0.9,
+      "count": 155,
+      "accuracy": 0.5612903237342834,
+      "avg_confidence": 0.8535990118980408
+    },
+    {
+      "bin_low": 0.9,
+      "bin_high": 1.0,
+      "count": 2578,
+      "accuracy": 0.8890612721443176,
+      "avg_confidence": 0.991199791431427
+    }
+  ],
+  "num_samples": 3000,
+  "run_tag": "run1",
+  "model_short_name": "visobert",
+  "model_display_name": "ViSoBERT",
+  "hf_name": "uitnlp/visobert",
+  "use_word_segmenter": false,
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run1\\visobert",
+  "eval_seconds": 1.801,
+  "ms_per_sample": 0.6,
+  "samples_per_second": 1665.68,
+  "num_parameters": 97569028
+}

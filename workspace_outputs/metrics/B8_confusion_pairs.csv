@@ -1,0 +1,13 @@
+﻿Nhãn thực (True),Nhãn đoán (Pred),Số lượng lỗi,Tỉ lệ trong tổng lỗi (%)
+Irrelevant,Governance,85,30.69
+Social,Governance,62,22.38
+Irrelevant,Social,42,15.16
+Social,Irrelevant,39,14.08
+Governance,Irrelevant,13,4.69
+Irrelevant,Environment,12,4.33
+Governance,Social,6,2.17
+Social,Environment,6,2.17
+Environment,Irrelevant,4,1.44
+Environment,Governance,3,1.08
+Environment,Social,3,1.08
+Governance,Environment,2,0.72

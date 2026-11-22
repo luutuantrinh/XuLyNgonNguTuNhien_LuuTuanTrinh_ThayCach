@@ -1,0 +1,26 @@
+{
+  "round_tag": "r2",
+  "model_short_name": "videberta-base",
+  "model_display_name": "ViDeBERTa-base",
+  "total_unlabeled": 31109,
+  "inference_seconds": 25.34,
+  "samples_per_second": 1227.7,
+  "mean_confidence": 0.8555,
+  "median_confidence": 0.9304,
+  "mean_entropy": 0.3741,
+  "threshold_ref": 0.91,
+  "count_above_threshold": 16957,
+  "pct_above_threshold": 54.51,
+  "pred_distribution_all": {
+    "Governance": 10613,
+    "Irrelevant": 7787,
+    "Social": 6716,
+    "Environment": 5993
+  },
+  "pred_distribution_above_threshold": {
+    "Governance": 6712,
+    "Environment": 3926,
+    "Irrelevant": 3510,
+    "Social": 2809
+  }
+}

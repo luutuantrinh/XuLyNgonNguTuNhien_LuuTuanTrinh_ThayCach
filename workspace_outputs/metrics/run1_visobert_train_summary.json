@@ -1,0 +1,41 @@
+{
+  "run_tag": "run1",
+  "model_short_name": "visobert",
+  "model_display_name": "ViSoBERT",
+  "hf_name": "uitnlp/visobert",
+  "use_word_segmenter": false,
+  "data_source": "train_subset6.csv",
+  "train_size": 10000,
+  "val_size": 2737,
+  "hardware_mode": "balanced",
+  "bf16": true,
+  "fp16": false,
+  "num_epochs_configured": 8,
+  "best_epoch": 5,
+  "train_seconds": 209.26,
+  "peak_vram_gb": 3.33,
+  "train_metrics": {
+    "train_runtime": 206.7479,
+    "train_samples_per_second": 338.577,
+    "train_steps_per_second": 10.597,
+    "train_loss": 0.6395468962132685,
+    "epoch": 7.0
+  },
+  "best_val_metrics": {
+    "eval_loss": 0.632158637046814,
+    "eval_accuracy": 0.8494702228717574,
+    "eval_f1_macro": 0.8453542177685496,
+    "eval_f1_micro": 0.8494702228717574,
+    "eval_f1_weighted": 0.8489476634784556,
+    "eval_precision_macro": 0.8469728355592563,
+    "eval_precision_weighted": 0.8492435914198165,
+    "eval_recall_macro": 0.8444824974341101,
+    "eval_recall_weighted": 0.8494702228717574,
+    "eval_runtime": 2.0152,
+    "eval_samples_per_second": 1358.156,
+    "eval_steps_per_second": 42.675,
+    "epoch": 7.0
+  },
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run1\\visobert",
+  "history_csv": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\metrics\\run1_visobert_history.csv"
+}

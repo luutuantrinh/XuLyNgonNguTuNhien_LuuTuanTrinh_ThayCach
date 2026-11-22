@@ -1,0 +1,18 @@
+{
+  "round_tag": "r1",
+  "model_short_name": "videberta-base",
+  "model_display_name": "ViDeBERTa-base",
+  "total_unlabeled": 54487,
+  "inference_seconds": 41.17,
+  "samples_per_second": 1323.5,
+  "mean_confidence": 0.3489,
+  "median_confidence": 0.349,
+  "mean_entropy": 1.3444,
+  "threshold_ref": 0.94,
+  "count_above_threshold": 0,
+  "pct_above_threshold": 0.0,
+  "pred_distribution_all": {
+    "Social": 54487
+  },
+  "pred_distribution_above_threshold": {}
+}

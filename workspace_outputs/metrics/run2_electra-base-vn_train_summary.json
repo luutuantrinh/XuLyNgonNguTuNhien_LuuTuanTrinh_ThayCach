@@ -1,0 +1,41 @@
+{
+  "run_tag": "run2",
+  "model_short_name": "electra-base-vn",
+  "model_display_name": "Vi-ELECTRA",
+  "hf_name": "NlpHUST/electra-base-vn",
+  "use_word_segmenter": false,
+  "data_source": "combined_round1.csv (Original + Pseudo R1)",
+  "train_size": 34404,
+  "val_size": 2737,
+  "hardware_mode": "balanced",
+  "bf16": true,
+  "fp16": false,
+  "num_epochs_configured": 8,
+  "best_epoch": 3,
+  "train_seconds": 409.75,
+  "peak_vram_gb": 3.82,
+  "train_metrics": {
+    "train_runtime": 407.9153,
+    "train_samples_per_second": 421.705,
+    "train_steps_per_second": 13.189,
+    "train_loss": 0.45142301679987,
+    "epoch": 5.0
+  },
+  "best_val_metrics": {
+    "eval_loss": 0.32302674651145935,
+    "eval_accuracy": 0.9108512970405553,
+    "eval_f1_macro": 0.9092727182844127,
+    "eval_f1_micro": 0.9108512970405553,
+    "eval_f1_weighted": 0.9106421672957224,
+    "eval_precision_macro": 0.9071664647785078,
+    "eval_precision_weighted": 0.9109143138514869,
+    "eval_recall_macro": 0.9118925960933658,
+    "eval_recall_weighted": 0.9108512970405553,
+    "eval_runtime": 1.2786,
+    "eval_samples_per_second": 2140.574,
+    "eval_steps_per_second": 67.26,
+    "epoch": 5.0
+  },
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run2\\electra-base-vn",
+  "history_csv": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\metrics\\run2_electra-base-vn_history.csv"
+}

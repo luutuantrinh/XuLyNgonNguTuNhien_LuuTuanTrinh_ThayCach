@@ -1,0 +1,26 @@
+{
+  "round_tag": "r1",
+  "model_short_name": "electra-base-vn",
+  "model_display_name": "Vi-ELECTRA",
+  "total_unlabeled": 54487,
+  "inference_seconds": 22.91,
+  "samples_per_second": 2378.6,
+  "mean_confidence": 0.9143,
+  "median_confidence": 0.9745,
+  "mean_entropy": 0.2719,
+  "threshold_ref": 0.94,
+  "count_above_threshold": 37783,
+  "pct_above_threshold": 69.34,
+  "pred_distribution_all": {
+    "Social": 17456,
+    "Governance": 15580,
+    "Environment": 10876,
+    "Irrelevant": 10575
+  },
+  "pred_distribution_above_threshold": {
+    "Social": 13046,
+    "Governance": 10655,
+    "Environment": 8584,
+    "Irrelevant": 5498
+  }
+}

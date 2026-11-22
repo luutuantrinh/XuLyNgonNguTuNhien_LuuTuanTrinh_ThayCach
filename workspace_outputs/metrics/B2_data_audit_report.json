@@ -1,0 +1,19 @@
+{
+  "train_raw_rows": 27366,
+  "test_raw_rows": 3000,
+  "unlabeled_raw_rows": 54490,
+  "test_unique_keys": 3000,
+  "test_internal_duplicates": 0,
+  "train_removed_short_or_empty": 0,
+  "train_short_under_min_words": 0,
+  "train_removed_label_conflicts": 0,
+  "train_removed_internal_duplicates": 1,
+  "train_removed_test_leakage": 0,
+  "train_clean_rows": 27365,
+  "unlabeled_removed_short_or_empty": 0,
+  "unlabeled_removed_internal_duplicates": 3,
+  "unlabeled_removed_test_leakage": 0,
+  "unlabeled_removed_train_overlap": 0,
+  "unlabeled_clean_rows": 54487,
+  "test_clean_rows": 3000
+}

@@ -1,0 +1,192 @@
+{
+  "round_tag": "r2",
+  "models": [
+    "PhoBERT-base",
+    "DistilBERT-m",
+    "mBERT-cased",
+    "RoBERTa-base",
+    "Vi-ELECTRA",
+    "ViSoBERT",
+    "ViDeBERTa-base"
+  ],
+  "model_weights": {
+    "PhoBERT-base": 0.1458,
+    "DistilBERT-m": 0.1443,
+    "mBERT-cased": 0.1463,
+    "RoBERTa-base": 0.1378,
+    "Vi-ELECTRA": 0.1477,
+    "ViSoBERT": 0.1416,
+    "ViDeBERTa-base": 0.1365
+  },
+  "min_votes_required": 5,
+  "confidence_threshold": 0.91,
+  "min_margin": 0.45,
+  "input_unlabeled_count": 31109,
+  "selected_pseudo_count": 9525,
+  "selected_ratio_pct": 30.62,
+  "remain_count": 21584,
+  "avg_confidence": 0.9738,
+  "avg_margin": 0.9522,
+  "avg_entropy": 0.1205,
+  "label_distribution": {
+    "0": 1844,
+    "1": 2277,
+    "2": 1813,
+    "3": 3591
+  },
+  "label_name_distribution": {
+    "Irrelevant": 1844,
+    "Environment": 2277,
+    "Social": 1813,
+    "Governance": 3591
+  },
+  "vote_distribution_all": {
+    "1": 0,
+    "2": 54,
+    "3": 1543,
+    "4": 5858,
+    "5": 6106,
+    "6": 7525,
+    "7": 10023
+  },
+  "vote_distribution_kept": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 236,
+    "7": 9289
+  },
+  "pairwise_agreement_pct": {
+    "PhoBERT-base": {
+      "PhoBERT-base": 100.0,
+      "DistilBERT-m": 71.29,
+      "mBERT-cased": 74.83,
+      "RoBERTa-base": 64.83,
+      "Vi-ELECTRA": 77.65,
+      "ViSoBERT": 65.26,
+      "ViDeBERTa-base": 61.81
+    },
+    "DistilBERT-m": {
+      "PhoBERT-base": 71.29,
+      "DistilBERT-m": 100.0,
+      "mBERT-cased": 77.59,
+      "RoBERTa-base": 67.67,
+      "Vi-ELECTRA": 73.8,
+      "ViSoBERT": 68.51,
+      "ViDeBERTa-base": 65.54
+    },
+    "mBERT-cased": {
+      "PhoBERT-base": 74.83,
+      "DistilBERT-m": 77.59,
+      "mBERT-cased": 100.0,
+      "RoBERTa-base": 66.94,
+      "Vi-ELECTRA": 76.73,
+      "ViSoBERT": 67.74,
+      "ViDeBERTa-base": 63.35
+    },
+    "RoBERTa-base": {
+      "PhoBERT-base": 64.83,
+      "DistilBERT-m": 67.67,
+      "mBERT-cased": 66.94,
+      "RoBERTa-base": 100.0,
+      "Vi-ELECTRA": 66.17,
+      "ViSoBERT": 65.15,
+      "ViDeBERTa-base": 63.58
+    },
+    "Vi-ELECTRA": {
+      "PhoBERT-base": 77.65,
+      "DistilBERT-m": 73.8,
+      "mBERT-cased": 76.73,
+      "RoBERTa-base": 66.17,
+      "Vi-ELECTRA": 100.0,
+      "ViSoBERT": 68.34,
+      "ViDeBERTa-base": 64.92
+    },
+    "ViSoBERT": {
+      "PhoBERT-base": 65.26,
+      "DistilBERT-m": 68.51,
+      "mBERT-cased": 67.74,
+      "RoBERTa-base": 65.15,
+      "Vi-ELECTRA": 68.34,
+      "ViSoBERT": 100.0,
+      "ViDeBERTa-base": 63.54
+    },
+    "ViDeBERTa-base": {
+      "PhoBERT-base": 61.81,
+      "DistilBERT-m": 65.54,
+      "mBERT-cased": 63.35,
+      "RoBERTa-base": 63.58,
+      "Vi-ELECTRA": 64.92,
+      "ViSoBERT": 63.54,
+      "ViDeBERTa-base": 100.0
+    }
+  },
+  "pairwise_cohen_kappa": {
+    "PhoBERT-base": {
+      "PhoBERT-base": 1.0,
+      "DistilBERT-m": 0.6093,
+      "mBERT-cased": 0.6583,
+      "RoBERTa-base": 0.5202,
+      "Vi-ELECTRA": 0.6963,
+      "ViSoBERT": 0.5318,
+      "ViDeBERTa-base": 0.4826
+    },
+    "DistilBERT-m": {
+      "PhoBERT-base": 0.6093,
+      "DistilBERT-m": 1.0,
+      "mBERT-cased": 0.6967,
+      "RoBERTa-base": 0.5603,
+      "Vi-ELECTRA": 0.6444,
+      "ViSoBERT": 0.5751,
+      "ViDeBERTa-base": 0.5333
+    },
+    "mBERT-cased": {
+      "PhoBERT-base": 0.6583,
+      "DistilBERT-m": 0.6967,
+      "mBERT-cased": 1.0,
+      "RoBERTa-base": 0.552,
+      "Vi-ELECTRA": 0.6853,
+      "ViSoBERT": 0.5669,
+      "ViDeBERTa-base": 0.506
+    },
+    "RoBERTa-base": {
+      "PhoBERT-base": 0.5202,
+      "DistilBERT-m": 0.5603,
+      "mBERT-cased": 0.552,
+      "RoBERTa-base": 1.0,
+      "Vi-ELECTRA": 0.5418,
+      "ViSoBERT": 0.5319,
+      "ViDeBERTa-base": 0.507
+    },
+    "Vi-ELECTRA": {
+      "PhoBERT-base": 0.6963,
+      "DistilBERT-m": 0.6444,
+      "mBERT-cased": 0.6853,
+      "RoBERTa-base": 0.5418,
+      "Vi-ELECTRA": 1.0,
+      "ViSoBERT": 0.5706,
+      "ViDeBERTa-base": 0.5239
+    },
+    "ViSoBERT": {
+      "PhoBERT-base": 0.5318,
+      "DistilBERT-m": 0.5751,
+      "mBERT-cased": 0.5669,
+      "RoBERTa-base": 0.5319,
+      "Vi-ELECTRA": 0.5706,
+      "ViSoBERT": 1.0,
+      "ViDeBERTa-base": 0.5058
+    },
+    "ViDeBERTa-base": {
+      "PhoBERT-base": 0.4826,
+      "DistilBERT-m": 0.5333,
+      "mBERT-cased": 0.506,
+      "RoBERTa-base": 0.507,
+      "Vi-ELECTRA": 0.5239,
+      "ViSoBERT": 0.5058,
+      "ViDeBERTa-base": 1.0
+    }
+  },
+  "mean_pairwise_kappa": 0.5714
+}

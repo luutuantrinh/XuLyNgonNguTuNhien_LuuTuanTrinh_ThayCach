@@ -1,0 +1,41 @@
+{
+  "run_tag": "run1",
+  "model_short_name": "phobert-base",
+  "model_display_name": "PhoBERT-base",
+  "hf_name": "vinai/phobert-base",
+  "use_word_segmenter": true,
+  "data_source": "train_subset1.csv",
+  "train_size": 10000,
+  "val_size": 2737,
+  "hardware_mode": "balanced",
+  "bf16": true,
+  "fp16": false,
+  "num_epochs_configured": 8,
+  "best_epoch": 7,
+  "train_seconds": 187.74,
+  "peak_vram_gb": 3.84,
+  "train_metrics": {
+    "train_runtime": 186.1244,
+    "train_samples_per_second": 429.82,
+    "train_steps_per_second": 13.453,
+    "train_loss": 0.4631605049291739,
+    "epoch": 8.0
+  },
+  "best_val_metrics": {
+    "eval_loss": 0.5471693873405457,
+    "eval_accuracy": 0.8973328461819511,
+    "eval_f1_macro": 0.8957432004368879,
+    "eval_f1_micro": 0.8973328461819511,
+    "eval_f1_weighted": 0.8962797367345703,
+    "eval_precision_macro": 0.8981492967322208,
+    "eval_precision_weighted": 0.8973042233857409,
+    "eval_recall_macro": 0.8957572866144454,
+    "eval_recall_weighted": 0.8973328461819511,
+    "eval_runtime": 1.0676,
+    "eval_samples_per_second": 2563.584,
+    "eval_steps_per_second": 80.551,
+    "epoch": 8.0
+  },
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run1\\phobert-base",
+  "history_csv": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\metrics\\run1_phobert-base_history.csv"
+}

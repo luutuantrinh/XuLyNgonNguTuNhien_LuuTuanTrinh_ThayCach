@@ -1,0 +1,26 @@
+{
+  "round_tag": "r2",
+  "model_short_name": "distilbert-base-multilingual-cased",
+  "model_display_name": "DistilBERT-m",
+  "total_unlabeled": 31109,
+  "inference_seconds": 9.18,
+  "samples_per_second": 3388.7,
+  "mean_confidence": 0.935,
+  "median_confidence": 0.9947,
+  "mean_entropy": 0.1715,
+  "threshold_ref": 0.91,
+  "count_above_threshold": 24688,
+  "pct_above_threshold": 79.36,
+  "pred_distribution_all": {
+    "Governance": 10397,
+    "Social": 8178,
+    "Irrelevant": 7145,
+    "Environment": 5389
+  },
+  "pred_distribution_above_threshold": {
+    "Governance": 8346,
+    "Social": 6315,
+    "Irrelevant": 5433,
+    "Environment": 4594
+  }
+}

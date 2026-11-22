@@ -1,0 +1,41 @@
+{
+  "run_tag": "run2",
+  "model_short_name": "distilbert-base-multilingual-cased",
+  "model_display_name": "DistilBERT-m",
+  "hf_name": "distilbert/distilbert-base-multilingual-cased",
+  "use_word_segmenter": false,
+  "data_source": "combined_round1.csv (Original + Pseudo R1)",
+  "train_size": 34404,
+  "val_size": 2737,
+  "hardware_mode": "balanced",
+  "bf16": true,
+  "fp16": false,
+  "num_epochs_configured": 8,
+  "best_epoch": 5,
+  "train_seconds": 376.99,
+  "peak_vram_gb": 2.96,
+  "train_metrics": {
+    "train_runtime": 375.6091,
+    "train_samples_per_second": 641.167,
+    "train_steps_per_second": 20.053,
+    "train_loss": 0.4019901166238243,
+    "epoch": 7.0
+  },
+  "best_val_metrics": {
+    "eval_loss": 0.4439178705215454,
+    "eval_accuracy": 0.8903909389842893,
+    "eval_f1_macro": 0.888586744459523,
+    "eval_f1_micro": 0.8903909389842893,
+    "eval_f1_weighted": 0.8899869576009961,
+    "eval_precision_macro": 0.8874765710172099,
+    "eval_precision_weighted": 0.8906704205695495,
+    "eval_recall_macro": 0.890837080995982,
+    "eval_recall_weighted": 0.8903909389842893,
+    "eval_runtime": 0.7625,
+    "eval_samples_per_second": 3589.543,
+    "eval_steps_per_second": 112.788,
+    "epoch": 7.0
+  },
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run2\\distilbert-base-multilingual-cased",
+  "history_csv": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\metrics\\run2_distilbert-base-multilingual-cased_history.csv"
+}

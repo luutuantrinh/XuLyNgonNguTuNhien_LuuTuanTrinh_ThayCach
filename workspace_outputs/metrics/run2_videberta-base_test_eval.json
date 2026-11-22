@@ -1,0 +1,134 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.849,
+    "f1_macro": 0.8374670718747909,
+    "f1_micro": 0.849,
+    "f1_weighted": 0.8454673933444272,
+    "precision_macro": 0.8517404658655314,
+    "precision_weighted": 0.8567058925282225,
+    "recall_macro": 0.8389808736725562,
+    "recall_weighted": 0.849,
+    "ece": 0.08526062003771465
+  },
+  "per_class_metrics": {
+    "Irrelevant": {
+      "precision": 0.8336933045356372,
+      "recall": 0.6433333333333333,
+      "f1-score": 0.7262464722483537,
+      "support": 600.0
+    },
+    "Environment": {
+      "precision": 0.9072164948453608,
+      "recall": 0.9658536585365853,
+      "f1-score": 0.9356172474896634,
+      "support": 820.0
+    },
+    "Social": {
+      "precision": 0.9147180192572214,
+      "recall": 0.7823529411764706,
+      "f1-score": 0.8433734939759037,
+      "support": 850.0
+    },
+    "Governance": {
+      "precision": 0.7513340448239061,
+      "recall": 0.9643835616438357,
+      "f1-score": 0.8446310737852429,
+      "support": 730.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      386,
+      52,
+      51,
+      111
+    ],
+    [
+      9,
+      792,
+      5,
+      14
+    ],
+    [
+      54,
+      23,
+      665,
+      108
+    ],
+    [
+      14,
+      6,
+      6,
+      704
+    ]
+  ],
+  "calibration_bins": [
+    {
+      "bin_low": 0.2,
+      "bin_high": 0.30000000000000004,
+      "count": 1,
+      "accuracy": 0.0,
+      "avg_confidence": 0.28820472955703735
+    },
+    {
+      "bin_low": 0.30000000000000004,
+      "bin_high": 0.4,
+      "count": 10,
+      "accuracy": 0.0,
+      "avg_confidence": 0.3649004399776459
+    },
+    {
+      "bin_low": 0.4,
+      "bin_high": 0.5,
+      "count": 36,
+      "accuracy": 0.5833333134651184,
+      "avg_confidence": 0.46627432107925415
+    },
+    {
+      "bin_low": 0.5,
+      "bin_high": 0.6000000000000001,
+      "count": 102,
+      "accuracy": 0.4803921580314636,
+      "avg_confidence": 0.5496599078178406
+    },
+    {
+      "bin_low": 0.6000000000000001,
+      "bin_high": 0.7000000000000001,
+      "count": 118,
+      "accuracy": 0.5,
+      "avg_confidence": 0.6496948003768921
+    },
+    {
+      "bin_low": 0.7000000000000001,
+      "bin_high": 0.8,
+      "count": 130,
+      "accuracy": 0.5692307949066162,
+      "avg_confidence": 0.7532360553741455
+    },
+    {
+      "bin_low": 0.8,
+      "bin_high": 0.9,
+      "count": 211,
+      "accuracy": 0.6777251362800598,
+      "avg_confidence": 0.8571193814277649
+    },
+    {
+      "bin_low": 0.9,
+      "bin_high": 1.0,
+      "count": 2392,
+      "accuracy": 0.9201505184173584,
+      "avg_confidence": 0.9875118732452393
+    }
+  ],
+  "num_samples": 3000,
+  "run_tag": "run2",
+  "model_short_name": "videberta-base",
+  "model_display_name": "ViDeBERTa-base",
+  "hf_name": "Fsoft-AIC/videberta-base",
+  "use_word_segmenter": false,
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run2\\videberta-base",
+  "eval_seconds": 2.417,
+  "ms_per_sample": 0.806,
+  "samples_per_second": 1241.09,
+  "num_parameters": 184348420
+}

@@ -1,0 +1,127 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.871,
+    "f1_macro": 0.8580247382013032,
+    "f1_micro": 0.871,
+    "f1_weighted": 0.867134278645142,
+    "precision_macro": 0.8719907451765365,
+    "precision_weighted": 0.8762530463727078,
+    "recall_macro": 0.8585927540077174,
+    "recall_weighted": 0.871,
+    "ece": 0.10293098110953967
+  },
+  "per_class_metrics": {
+    "Irrelevant": {
+      "precision": 0.859375,
+      "recall": 0.6416666666666667,
+      "f1-score": 0.7347328244274809,
+      "support": 600.0
+    },
+    "Environment": {
+      "precision": 0.9355581127733027,
+      "recall": 0.9914634146341463,
+      "f1-score": 0.9626998223801065,
+      "support": 820.0
+    },
+    "Social": {
+      "precision": 0.9172056921086675,
+      "recall": 0.8341176470588235,
+      "f1-score": 0.8736906962415281,
+      "support": 850.0
+    },
+    "Governance": {
+      "precision": 0.7758241758241758,
+      "recall": 0.9671232876712329,
+      "f1-score": 0.8609756097560975,
+      "support": 730.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      385,
+      37,
+      57,
+      121
+    ],
+    [
+      2,
+      813,
+      3,
+      2
+    ],
+    [
+      43,
+      17,
+      709,
+      81
+    ],
+    [
+      18,
+      2,
+      4,
+      706
+    ]
+  ],
+  "calibration_bins": [
+    {
+      "bin_low": 0.30000000000000004,
+      "bin_high": 0.4,
+      "count": 1,
+      "accuracy": 0.0,
+      "avg_confidence": 0.34183168411254883
+    },
+    {
+      "bin_low": 0.4,
+      "bin_high": 0.5,
+      "count": 11,
+      "accuracy": 0.3636363744735718,
+      "avg_confidence": 0.465643048286438
+    },
+    {
+      "bin_low": 0.5,
+      "bin_high": 0.6000000000000001,
+      "count": 46,
+      "accuracy": 0.3695652186870575,
+      "avg_confidence": 0.5506009459495544
+    },
+    {
+      "bin_low": 0.6000000000000001,
+      "bin_high": 0.7000000000000001,
+      "count": 35,
+      "accuracy": 0.34285715222358704,
+      "avg_confidence": 0.6494261622428894
+    },
+    {
+      "bin_low": 0.7000000000000001,
+      "bin_high": 0.8,
+      "count": 48,
+      "accuracy": 0.375,
+      "avg_confidence": 0.7523548603057861
+    },
+    {
+      "bin_low": 0.8,
+      "bin_high": 0.9,
+      "count": 92,
+      "accuracy": 0.5,
+      "avg_confidence": 0.8537359833717346
+    },
+    {
+      "bin_low": 0.9,
+      "bin_high": 1.0,
+      "count": 2767,
+      "accuracy": 0.9092880487442017,
+      "avg_confidence": 0.9951625466346741
+    }
+  ],
+  "num_samples": 3000,
+  "run_tag": "run2",
+  "model_short_name": "distilbert-base-multilingual-cased",
+  "model_display_name": "DistilBERT-m",
+  "hf_name": "distilbert/distilbert-base-multilingual-cased",
+  "use_word_segmenter": false,
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run2\\distilbert-base-multilingual-cased",
+  "eval_seconds": 1.095,
+  "ms_per_sample": 0.365,
+  "samples_per_second": 2738.83,
+  "num_parameters": 135327748
+}

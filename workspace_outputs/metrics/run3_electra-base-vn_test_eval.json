@@ -1,0 +1,113 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.8823333333333333,
+    "f1_macro": 0.8730878516686059,
+    "f1_micro": 0.8823333333333333,
+    "f1_weighted": 0.8804718525083678,
+    "precision_macro": 0.8820079154883419,
+    "precision_weighted": 0.8873474930413998,
+    "recall_macro": 0.8735376089961544,
+    "recall_weighted": 0.8823333333333333,
+    "ece": 0.10546971260011197
+  },
+  "per_class_metrics": {
+    "Irrelevant": {
+      "precision": 0.8534136546184738,
+      "recall": 0.7083333333333334,
+      "f1-score": 0.7741347905282332,
+      "support": 600.0
+    },
+    "Environment": {
+      "precision": 0.964200477326969,
+      "recall": 0.9853658536585366,
+      "f1-score": 0.9746682750301568,
+      "support": 820.0
+    },
+    "Social": {
+      "precision": 0.9228758169934641,
+      "recall": 0.8305882352941176,
+      "f1-score": 0.8743034055727554,
+      "support": 850.0
+    },
+    "Governance": {
+      "precision": 0.7875417130144605,
+      "recall": 0.9698630136986301,
+      "f1-score": 0.8692449355432781,
+      "support": 730.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      425,
+      16,
+      50,
+      109
+    ],
+    [
+      3,
+      808,
+      4,
+      5
+    ],
+    [
+      56,
+      11,
+      706,
+      77
+    ],
+    [
+      14,
+      3,
+      5,
+      708
+    ]
+  ],
+  "calibration_bins": [
+    {
+      "bin_low": 0.5,
+      "bin_high": 0.6000000000000001,
+      "count": 21,
+      "accuracy": 0.3333333432674408,
+      "avg_confidence": 0.5463816523551941
+    },
+    {
+      "bin_low": 0.6000000000000001,
+      "bin_high": 0.7000000000000001,
+      "count": 20,
+      "accuracy": 0.30000001192092896,
+      "avg_confidence": 0.6478519439697266
+    },
+    {
+      "bin_low": 0.7000000000000001,
+      "bin_high": 0.8,
+      "count": 23,
+      "accuracy": 0.17391304671764374,
+      "avg_confidence": 0.7517827749252319
+    },
+    {
+      "bin_low": 0.8,
+      "bin_high": 0.9,
+      "count": 43,
+      "accuracy": 0.604651153087616,
+      "avg_confidence": 0.8518800735473633
+    },
+    {
+      "bin_low": 0.9,
+      "bin_high": 1.0,
+      "count": 2893,
+      "accuracy": 0.9001036882400513,
+      "avg_confidence": 0.9972541332244873
+    }
+  ],
+  "num_samples": 3000,
+  "run_tag": "run3",
+  "model_short_name": "electra-base-vn",
+  "model_display_name": "Vi-ELECTRA",
+  "hf_name": "NlpHUST/electra-base-vn",
+  "use_word_segmenter": false,
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run3\\electra-base-vn",
+  "eval_seconds": 1.486,
+  "ms_per_sample": 0.495,
+  "samples_per_second": 2018.79,
+  "num_parameters": 133660420
+}

@@ -1,0 +1,38 @@
+{
+  "run_tag": "baseline",
+  "model_short_name": "phobert-base",
+  "model_display_name": "PhoBERT-base",
+  "hf_name": "vinai/phobert-base",
+  "use_word_segmenter": true,
+  "data_source": "train_pool.csv (100% gốc, không pseudo)",
+  "train_size": 24628,
+  "val_size": 2737,
+  "hardware_mode": "balanced",
+  "bf16": true,
+  "fp16": false,
+  "num_epochs_configured": 8,
+  "best_epoch": 8,
+  "train_seconds": 432.19,
+  "peak_vram_gb": 3.82,
+  "train_metrics": {
+    "train_runtime": 430.7217,
+    "train_samples_per_second": 457.428,
+    "train_steps_per_second": 14.302,
+    "total_flos": 6306638577857280.0,
+    "train_loss": 0.369413896659752,
+    "epoch": 8.0
+  },
+  "best_val_metrics": {
+    "eval_loss": 0.606460452079773,
+    "eval_accuracy": 0.9050054804530507,
+    "eval_f1_macro": 0.9037591769717985,
+    "eval_f1_micro": 0.9050054804530507,
+    "eval_f1_weighted": 0.9040645805645566,
+    "eval_precision_macro": 0.9070269438090153,
+    "eval_precision_weighted": 0.905207989048645,
+    "eval_recall_macro": 0.9028450658299902,
+    "eval_recall_weighted": 0.9050054804530507
+  },
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\baseline\\phobert-base",
+  "history_csv": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\metrics\\baseline_phobert-base_history.csv"
+}

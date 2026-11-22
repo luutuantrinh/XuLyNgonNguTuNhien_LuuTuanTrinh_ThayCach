@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# JupyterLab
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Model weights & heavy artifacts
+workspace_outputs/checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Logs & OS
+logs/
+wandb/
+.DS_Store
+Thumbs.db

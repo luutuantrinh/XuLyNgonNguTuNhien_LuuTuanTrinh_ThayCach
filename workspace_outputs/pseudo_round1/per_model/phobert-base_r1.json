@@ -1,0 +1,26 @@
+{
+  "round_tag": "r1",
+  "model_short_name": "phobert-base",
+  "model_display_name": "PhoBERT-base",
+  "total_unlabeled": 54487,
+  "inference_seconds": 20.05,
+  "samples_per_second": 2717.5,
+  "mean_confidence": 0.9729,
+  "median_confidence": 0.9983,
+  "mean_entropy": 0.078,
+  "threshold_ref": 0.94,
+  "count_above_threshold": 49081,
+  "pct_above_threshold": 90.08,
+  "pred_distribution_all": {
+    "Social": 18336,
+    "Governance": 16456,
+    "Environment": 11625,
+    "Irrelevant": 8070
+  },
+  "pred_distribution_above_threshold": {
+    "Social": 16765,
+    "Governance": 14845,
+    "Environment": 10922,
+    "Irrelevant": 6549
+  }
+}

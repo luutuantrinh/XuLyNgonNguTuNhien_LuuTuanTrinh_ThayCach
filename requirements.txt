@@ -1,0 +1,36 @@
+# Vi-ESG-Bert (Luu Tuan Trinh — Capstone Project Edition)
+# Hardware detected: NVIDIA GeForce RTX 5070 (12 GB VRAM, Blackwell sm_120) + 20 Logical CPUs
+#
+# Lưu ý quan trọng cho RTX 5070 (Blackwell):
+# Cài PyTorch bản CUDA 12.8 trước khi cài các thư viện bên dưới:
+#   pip install --upgrade torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+# Core Deep Learning & Transformers
+transformers>=4.46.0
+accelerate>=1.0.0
+datasets>=3.0.0
+safetensors>=0.4.5
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+
+# Vietnamese NLP
+pyvi>=0.1.1
+
+# Data Science & Evaluation
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+scipy>=1.13.0
+pyarrow>=17.0.0
+
+# Visualization (Capstone Report & Slides - 300 DPI)
+matplotlib>=3.9.0
+seaborn>=0.13.0
+wordcloud>=1.9.3
+plotly>=5.24.0
+
+# JupyterLab & Interactive Demo
+jupyterlab>=4.2.0
+ipywidgets>=8.1.0
+tqdm>=4.66.0
+psutil>=6.0.0

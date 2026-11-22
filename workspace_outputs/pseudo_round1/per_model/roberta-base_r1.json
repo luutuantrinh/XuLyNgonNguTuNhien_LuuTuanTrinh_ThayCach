@@ -1,0 +1,26 @@
+{
+  "round_tag": "r1",
+  "model_short_name": "roberta-base",
+  "model_display_name": "RoBERTa-base",
+  "total_unlabeled": 54487,
+  "inference_seconds": 52.55,
+  "samples_per_second": 1036.9,
+  "mean_confidence": 0.8717,
+  "median_confidence": 0.9541,
+  "mean_entropy": 0.3538,
+  "threshold_ref": 0.94,
+  "count_above_threshold": 29639,
+  "pct_above_threshold": 54.4,
+  "pred_distribution_all": {
+    "Governance": 19609,
+    "Social": 15722,
+    "Environment": 12978,
+    "Irrelevant": 6178
+  },
+  "pred_distribution_above_threshold": {
+    "Governance": 11619,
+    "Environment": 8648,
+    "Social": 8410,
+    "Irrelevant": 962
+  }
+}

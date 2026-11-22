@@ -1,0 +1,26 @@
+{
+  "round_tag": "r2",
+  "model_short_name": "visobert",
+  "model_display_name": "ViSoBERT",
+  "total_unlabeled": 31109,
+  "inference_seconds": 17.31,
+  "samples_per_second": 1797.0,
+  "mean_confidence": 0.9696,
+  "median_confidence": 0.9998,
+  "mean_entropy": 0.0765,
+  "threshold_ref": 0.91,
+  "count_above_threshold": 28025,
+  "pct_above_threshold": 90.09,
+  "pred_distribution_all": {
+    "Governance": 10083,
+    "Irrelevant": 9187,
+    "Environment": 6048,
+    "Social": 5791
+  },
+  "pred_distribution_above_threshold": {
+    "Governance": 9182,
+    "Irrelevant": 8200,
+    "Environment": 5529,
+    "Social": 5114
+  }
+}

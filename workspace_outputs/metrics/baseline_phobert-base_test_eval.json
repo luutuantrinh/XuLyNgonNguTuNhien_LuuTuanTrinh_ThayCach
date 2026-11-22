@@ -1,0 +1,127 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.878,
+    "f1_macro": 0.864622904604543,
+    "f1_micro": 0.878,
+    "f1_weighted": 0.8743802555600106,
+    "precision_macro": 0.8786243894366822,
+    "precision_weighted": 0.8815874506924822,
+    "recall_macro": 0.8633718545888118,
+    "recall_weighted": 0.878,
+    "ece": 0.11058217006921768
+  },
+  "per_class_metrics": {
+    "Irrelevant": {
+      "precision": 0.8695652173913043,
+      "recall": 0.6333333333333333,
+      "f1-score": 0.7328833172613307,
+      "support": 600.0
+    },
+    "Environment": {
+      "precision": 0.9778325123152709,
+      "recall": 0.9682926829268292,
+      "f1-score": 0.9730392156862745,
+      "support": 820.0
+    },
+    "Social": {
+      "precision": 0.8684807256235828,
+      "recall": 0.9011764705882352,
+      "f1-score": 0.8845265588914549,
+      "support": 850.0
+    },
+    "Governance": {
+      "precision": 0.7986191024165707,
+      "recall": 0.9506849315068493,
+      "f1-score": 0.868042526579112,
+      "support": 730.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      380,
+      14,
+      88,
+      118
+    ],
+    [
+      10,
+      794,
+      10,
+      6
+    ],
+    [
+      31,
+      2,
+      766,
+      51
+    ],
+    [
+      16,
+      2,
+      18,
+      694
+    ]
+  ],
+  "calibration_bins": [
+    {
+      "bin_low": 0.30000000000000004,
+      "bin_high": 0.4,
+      "count": 1,
+      "accuracy": 0.0,
+      "avg_confidence": 0.3986877202987671
+    },
+    {
+      "bin_low": 0.4,
+      "bin_high": 0.5,
+      "count": 2,
+      "accuracy": 0.5,
+      "avg_confidence": 0.45886844396591187
+    },
+    {
+      "bin_low": 0.5,
+      "bin_high": 0.6000000000000001,
+      "count": 21,
+      "accuracy": 0.523809552192688,
+      "avg_confidence": 0.5527780652046204
+    },
+    {
+      "bin_low": 0.6000000000000001,
+      "bin_high": 0.7000000000000001,
+      "count": 16,
+      "accuracy": 0.5625,
+      "avg_confidence": 0.6402791142463684
+    },
+    {
+      "bin_low": 0.7000000000000001,
+      "bin_high": 0.8,
+      "count": 19,
+      "accuracy": 0.6842105388641357,
+      "avg_confidence": 0.7494562268257141
+    },
+    {
+      "bin_low": 0.8,
+      "bin_high": 0.9,
+      "count": 44,
+      "accuracy": 0.40909090638160706,
+      "avg_confidence": 0.855617344379425
+    },
+    {
+      "bin_low": 0.9,
+      "bin_high": 1.0,
+      "count": 2897,
+      "accuracy": 0.8912668228149414,
+      "avg_confidence": 0.9977652430534363
+    }
+  ],
+  "num_samples": 3000,
+  "run_tag": "baseline",
+  "model_short_name": "phobert-base",
+  "model_display_name": "PhoBERT-base",
+  "hf_name": "vinai/phobert-base",
+  "use_word_segmenter": true,
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\baseline\\phobert-base",
+  "eval_seconds": 1.458,
+  "ms_per_sample": 0.486,
+  "samples_per_second": 2057.69,
+  "num_parameters": 135001348
+}

@@ -1,0 +1,44 @@
+{
+  "round_name": "round2",
+  "original_total": 34404,
+  "added_pseudo_total": 4844,
+  "combined_total": 39248,
+  "remaining_pseudo_total": 4681,
+  "per_class": {
+    "0": {
+      "label_name": "Irrelevant",
+      "before": 5904,
+      "added_pseudo": 1844,
+      "after": 7748,
+      "remaining_pseudo": 0
+    },
+    "1": {
+      "label_name": "Environment",
+      "before": 9500,
+      "added_pseudo": 1000,
+      "after": 10500,
+      "remaining_pseudo": 1277
+    },
+    "2": {
+      "label_name": "Social",
+      "before": 9500,
+      "added_pseudo": 1000,
+      "after": 10500,
+      "remaining_pseudo": 813
+    },
+    "3": {
+      "label_name": "Governance",
+      "before": 9500,
+      "added_pseudo": 1000,
+      "after": 10500,
+      "remaining_pseudo": 2591
+    }
+  },
+  "source_breakdown": {
+    "original": 24628,
+    "pseudo_round1": 9776,
+    "pseudo_round2": 4844
+  },
+  "imbalance_ratio_before": 1.609,
+  "imbalance_ratio_after": 1.355
+}

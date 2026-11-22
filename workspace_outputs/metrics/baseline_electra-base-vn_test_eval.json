@@ -1,0 +1,120 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.8706666666666667,
+    "f1_macro": 0.8581020774454196,
+    "f1_micro": 0.8706666666666667,
+    "f1_weighted": 0.8677090619516646,
+    "precision_macro": 0.8737627923310027,
+    "precision_weighted": 0.8777628641585038,
+    "recall_macro": 0.8573774919256042,
+    "recall_weighted": 0.8706666666666667,
+    "ece": 0.11574297321836154
+  },
+  "per_class_metrics": {
+    "Irrelevant": {
+      "precision": 0.8701594533029613,
+      "recall": 0.6366666666666667,
+      "f1-score": 0.7353224254090471,
+      "support": 600.0
+    },
+    "Environment": {
+      "precision": 0.9651022864019254,
+      "recall": 0.9780487804878049,
+      "f1-score": 0.9715324046032707,
+      "support": 820.0
+    },
+    "Social": {
+      "precision": 0.9013563501849569,
+      "recall": 0.86,
+      "f1-score": 0.8801926550270921,
+      "support": 850.0
+    },
+    "Governance": {
+      "precision": 0.7584330794341676,
+      "recall": 0.9547945205479452,
+      "f1-score": 0.845360824742268,
+      "support": 730.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      382,
+      20,
+      64,
+      134
+    ],
+    [
+      4,
+      802,
+      7,
+      7
+    ],
+    [
+      33,
+      5,
+      731,
+      81
+    ],
+    [
+      20,
+      4,
+      9,
+      697
+    ]
+  ],
+  "calibration_bins": [
+    {
+      "bin_low": 0.4,
+      "bin_high": 0.5,
+      "count": 2,
+      "accuracy": 0.5,
+      "avg_confidence": 0.4937479496002197
+    },
+    {
+      "bin_low": 0.5,
+      "bin_high": 0.6000000000000001,
+      "count": 16,
+      "accuracy": 0.3125,
+      "avg_confidence": 0.5469363331794739
+    },
+    {
+      "bin_low": 0.6000000000000001,
+      "bin_high": 0.7000000000000001,
+      "count": 27,
+      "accuracy": 0.29629629850387573,
+      "avg_confidence": 0.6441718935966492
+    },
+    {
+      "bin_low": 0.7000000000000001,
+      "bin_high": 0.8,
+      "count": 28,
+      "accuracy": 0.5,
+      "avg_confidence": 0.757053554058075
+    },
+    {
+      "bin_low": 0.8,
+      "bin_high": 0.9,
+      "count": 41,
+      "accuracy": 0.46341463923454285,
+      "avg_confidence": 0.8544255495071411
+    },
+    {
+      "bin_low": 0.9,
+      "bin_high": 1.0,
+      "count": 2886,
+      "accuracy": 0.8887733817100525,
+      "avg_confidence": 0.9964808821678162
+    }
+  ],
+  "num_samples": 3000,
+  "run_tag": "baseline",
+  "model_short_name": "electra-base-vn",
+  "model_display_name": "Vi-ELECTRA",
+  "hf_name": "NlpHUST/electra-base-vn",
+  "use_word_segmenter": false,
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\baseline\\electra-base-vn",
+  "eval_seconds": 1.313,
+  "ms_per_sample": 0.438,
+  "samples_per_second": 2285.43,
+  "num_parameters": 133660420
+}

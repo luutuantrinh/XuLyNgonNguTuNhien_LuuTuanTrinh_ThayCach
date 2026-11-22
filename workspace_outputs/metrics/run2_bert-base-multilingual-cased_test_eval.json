@@ -1,0 +1,113 @@
+{
+  "overall_metrics": {
+    "accuracy": 0.88,
+    "f1_macro": 0.8691906800811734,
+    "f1_micro": 0.88,
+    "f1_weighted": 0.8771934455360046,
+    "precision_macro": 0.8823024909232916,
+    "precision_weighted": 0.8849804181525184,
+    "recall_macro": 0.8682626127631139,
+    "recall_weighted": 0.88,
+    "ece": 0.1123385257422924
+  },
+  "per_class_metrics": {
+    "Irrelevant": {
+      "precision": 0.8874172185430463,
+      "recall": 0.67,
+      "f1-score": 0.7635327635327636,
+      "support": 600.0
+    },
+    "Environment": {
+      "precision": 0.9550295857988166,
+      "recall": 0.9841463414634146,
+      "f1-score": 0.9693693693693693,
+      "support": 820.0
+    },
+    "Social": {
+      "precision": 0.9002463054187192,
+      "recall": 0.86,
+      "f1-score": 0.8796630565583634,
+      "support": 850.0
+    },
+    "Governance": {
+      "precision": 0.7865168539325843,
+      "recall": 0.958904109589041,
+      "f1-score": 0.8641975308641975,
+      "support": 730.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      402,
+      23,
+      66,
+      109
+    ],
+    [
+      4,
+      807,
+      6,
+      3
+    ],
+    [
+      35,
+      6,
+      731,
+      78
+    ],
+    [
+      12,
+      9,
+      9,
+      700
+    ]
+  ],
+  "calibration_bins": [
+    {
+      "bin_low": 0.5,
+      "bin_high": 0.6000000000000001,
+      "count": 14,
+      "accuracy": 0.2142857164144516,
+      "avg_confidence": 0.5669379830360413
+    },
+    {
+      "bin_low": 0.6000000000000001,
+      "bin_high": 0.7000000000000001,
+      "count": 9,
+      "accuracy": 0.5555555820465088,
+      "avg_confidence": 0.6444353461265564
+    },
+    {
+      "bin_low": 0.7000000000000001,
+      "bin_high": 0.8,
+      "count": 20,
+      "accuracy": 0.6000000238418579,
+      "avg_confidence": 0.7573490142822266
+    },
+    {
+      "bin_low": 0.8,
+      "bin_high": 0.9,
+      "count": 38,
+      "accuracy": 0.3684210479259491,
+      "avg_confidence": 0.8514000773429871
+    },
+    {
+      "bin_low": 0.9,
+      "bin_high": 1.0,
+      "count": 2919,
+      "accuracy": 0.8927714824676514,
+      "avg_confidence": 0.9988963007926941
+    }
+  ],
+  "num_samples": 3000,
+  "run_tag": "run2",
+  "model_short_name": "bert-base-multilingual-cased",
+  "model_display_name": "mBERT-cased",
+  "hf_name": "google-bert/bert-base-multilingual-cased",
+  "use_word_segmenter": false,
+  "checkpoint_dir": "D:\\Document 2025 Backup\\XuLyNgonNguTuNhien\\Vi-ESG-Bert-LuuTuanTrinh\\workspace_outputs\\checkpoints\\run2\\bert-base-multilingual-cased",
+  "eval_seconds": 1.61,
+  "ms_per_sample": 0.537,
+  "samples_per_second": 1863.06,
+  "num_parameters": 177856516
+}
