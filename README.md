@@ -84,7 +84,9 @@ Toàn bộ notebook nằm trong thư mục **`notebooks/`**, đánh số `B1_` �
 | **B6** | `B6_PseudoLabel_va_Ensemble_Vong2.ipynb` | Pseudo-Labeling & Ensemble Vòng 2 (`0.91`) trên `remain_data_r1`, gộp cân bằng lớp + Data Funnel & Stacked 3 tầng | **Đợt 3 — Sẵn sàng chạy** |
 | **B7** | `B7_Train_Run3_va_Danh_gia_Final_Ensemble.ipynb` | Train Vòng 3 cuối cùng, đánh giá Final Ensemble (4 chiến lược + McNemar test) trên `test_clean.csv` + Benchmark Latency/VRAM | **Đợt 4 — Sẵn sàng chạy** |
 | **B8** | `B8_Truc_quan_hoa_Tong_hop_Phan_tich_Loi_va_Demo.ipynb` | Xuất trọn bộ 6 biểu đồ tổng kết báo cáo + Phân tích lỗi Top-15 + Demo nhập văn bản ESG tương tác | **Đợt 4 — Sẵn sàng chạy** |
-| **Báo cáo** | `BAO_CAO_TONG_HOP_KHOA_HOC.ipynb` | **Notebook Báo cáo Khoa học Tổng hợp (chuẩn Thạc sĩ)** — tổng hợp trọn vẹn phân tích định lượng, kiểm định McNemar, phân tích lỗi và nhúng trực tiếp toàn bộ biểu đồ từ `B1` → `B8` | **✅ Hoàn tất 100% B1 → B8 (27 hình)** |
+| **Báo cáo** | `BAO_CAO_TONG_HOP_KHOA_HOC.ipynb` | **Notebook Báo cáo Khoa học Tổng hợp (chuẩn Thạc sĩ)** — tổng hợp trọn vẹn phân tích định lượng, kiểm định McNemar, phân tích lỗi, 16 tài liệu tham khảo và nhúng trực tiếp toàn bộ biểu đồ từ `B1` → `B8` | **✅ Hoàn tất 100% B1 → B8 (27 hình)** |
+| **Demo** | `DEMO_TRUC_TIEP_CHO_GIANG_VIEN.ipynb` | **Notebook Demo & Kiểm thử trực tiếp cho Giảng viên** — hỗ trợ 3 chế độ (`ensemble_7`, `top3_fast`, `single_fast`), giao diện `ipywidgets`, Batch Test CSV & rút ngẫu nhiên Hold-out Test | **✅ Sẵn sàng Demo** |
+| **Giải thích** | `GIAI_THICH_THUAT_TOAN_VA_SUY_LUAN.ipynb` | **Notebook Giải thích Thuật toán & Hướng Suy luận** — trình bày trực quan, dễ hiểu cho cả người ngoài ngành kèm mô phỏng chạy thử + Bộ 8 câu hỏi phản biện hội đồng | **✅ Sẵn sàng Trình bày** |
 
 ---
 
